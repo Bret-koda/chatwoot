@@ -178,7 +178,8 @@ import filterQueryGenerator from '../helper/filterQueryGenerator.js';
 import AddCustomViews from 'dashboard/routes/dashboard/customviews/AddCustomViews';
 import DeleteCustomViews from 'dashboard/routes/dashboard/customviews/DeleteCustomViews.vue';
 import ConversationBulkActions from './widgets/conversation/conversationBulkActions/Index.vue';
-import alertMixin from 'shared/mixins/alertMixin';
+// import alertMixin from 'shared/mixins/alertMixin';
+import adminMixin from 'dashboard/mixins/isAdmin';
 
 import {
   hasPressedAltAndJKey,
@@ -195,7 +196,7 @@ export default {
     DeleteCustomViews,
     ConversationBulkActions,
   },
-  mixins: [timeMixin, conversationMixin, eventListenerMixins, alertMixin],
+  mixins: [timeMixin, conversationMixin, eventListenerMixins, adminMixin],
   props: {
     conversationInbox: {
       type: [String, Number],
@@ -296,6 +297,31 @@ export default {
         };
       });
     },
+    //  assigneeTabItems() {
+    //   const ASSIGNEE_TYPE_TAB_KEYS = {
+    //     me: 'mineCount',
+    //     unassigned: 'unAssignedCount',
+    //     all: 'allCount',
+    //   };
+    //   if (this.isAdmin) {
+    //     return Object.keys(ASSIGNEE_TYPE_TAB_KEYS).map(item => {
+    //       const count = this.conversationStats[item.COUNT_KEY] || 0;
+    //       return {
+    //         key: item.KEY,
+    //         name: item.NAME,
+    //         count,
+    //       };
+    //     });
+    //   } else {
+    //     return [
+    //       {
+    //         count: this.conversationStats['mineCount'],
+    //         key: "mine",
+    //         name: 'Mine',
+    //       },
+    //     ];
+    //   }
+    // },
     showAssigneeInConversationCard() {
       return (
         this.hasAppliedFiltersOrActiveFolders ||
