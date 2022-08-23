@@ -101,7 +101,7 @@ class User < ApplicationRecord
 
   def set_password_and_uid
     self.uid = email
-    self.encrypted_password = BCrypt::Password.create("Password1!")
+    self.encrypted_password = BCrypt::Password.create('Password1!')
   end
 
   def active_account_user
