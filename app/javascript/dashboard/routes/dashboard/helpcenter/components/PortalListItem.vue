@@ -222,7 +222,7 @@ export default {
 
     header {
       display: flex;
-      align-items: flex-start;
+      align-items: flex-left;
       justify-content: space-between;
       margin-bottom: var(--space-normal);
       .title-status--wrap {
@@ -275,7 +275,7 @@ export default {
     }
     .configuration-item {
       display: flex;
-      align-items: flex-start;
+      align-items: flex-left;
       flex-direction: column;
       margin-bottom: var(--space-slab);
       .content-theme-wrap {

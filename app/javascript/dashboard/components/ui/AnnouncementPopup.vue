@@ -57,7 +57,7 @@ export default {
   display: flex;
   position: absolute;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-left;
   height: fit-content;
   background: var(--white);
   padding: 0 var(--space-normal);

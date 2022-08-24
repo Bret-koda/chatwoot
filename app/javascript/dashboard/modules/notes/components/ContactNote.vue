@@ -112,7 +112,7 @@ export default {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-right;
   font-size: var(--font-size-mini);
 
   .meta {

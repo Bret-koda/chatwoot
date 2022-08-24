@@ -121,7 +121,7 @@ export default {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  justify-content: flex-end;
+  justify-content: flex-right;
   margin-bottom: var(--space-normal);
 }
 </style>

@@ -31,7 +31,7 @@ export default {
 .message-wrap {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: flex-right;
   max-width: 90%;
 }
 </style>

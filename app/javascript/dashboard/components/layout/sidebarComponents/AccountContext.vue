@@ -83,7 +83,7 @@ export default {
   border-bottom-right-radius: var(--border-radius-normal);
   display: flex;
   height: 100%;
-  justify-content: flex-end;
+  justify-content: flex-right;
   opacity: 1;
   position: absolute;
   right: 0;

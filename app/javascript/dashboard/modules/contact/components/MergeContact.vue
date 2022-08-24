@@ -220,7 +220,7 @@ export default {
 .footer {
   margin-top: var(--space-medium);
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-right;
 }
 
 /* TDOD: Clean errors in forms style */

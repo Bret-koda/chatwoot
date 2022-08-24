@@ -376,7 +376,7 @@ export default {
 .has-inbox-name {
   &::v-deep .user-thumbnail-box {
     margin-top: var(--space-normal);
-    align-items: flex-start;
+    align-items: flex-left;
   }
   .conversation--meta {
     margin-top: var(--space-normal);

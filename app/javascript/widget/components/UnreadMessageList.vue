@@ -97,7 +97,7 @@ export default {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: flex-end;
+  justify-content: flex-right;
   overflow: hidden;
 
   .unread-messages {

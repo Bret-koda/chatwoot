@@ -146,7 +146,7 @@ export default {
 <style lang="scss" scoped>
 .button-wrapper {
   min-width: unset;
-  justify-content: flex-end;
+  justify-content: flex-right;
   padding-right: var(--space-large);
 }
 </style>

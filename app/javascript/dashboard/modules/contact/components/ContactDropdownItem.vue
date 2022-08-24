@@ -75,7 +75,7 @@ export default {
 .option__title {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: flex-left;
   line-height: 1.2;
   font-size: var(--font-size-small);
 }

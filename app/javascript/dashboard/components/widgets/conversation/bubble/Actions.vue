@@ -212,7 +212,7 @@ export default {
 }
 
 .message-text--metadata {
-  align-items: flex-start;
+  align-items: flex-left;
   display: flex;
 
   .time {

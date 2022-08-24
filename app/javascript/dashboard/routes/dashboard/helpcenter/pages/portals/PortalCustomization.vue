@@ -46,7 +46,7 @@
         </div>
       </div>
     </div>
-    <div class="flex-end">
+    <div class="flex-right">
       <woot-button
         :is-loading="uiFlags.isUpdating"
         @click="updatePortalSettings"

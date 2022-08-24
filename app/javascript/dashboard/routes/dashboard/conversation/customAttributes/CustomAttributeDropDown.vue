@@ -129,8 +129,8 @@ export default {
 
   .list-wrap {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: flex-left;
+    align-items: flex-left;
     flex: 1 1 auto;
     overflow: auto;
 

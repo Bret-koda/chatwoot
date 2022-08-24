@@ -85,7 +85,7 @@ export default {
 
 .header-title--wrap {
   display: flex;
-  align-items: flex-start;
+  align-items: flex-left;
   flex-direction: column;
   margin-left: var(--space-small);
 }
