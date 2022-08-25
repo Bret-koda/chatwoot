@@ -309,7 +309,7 @@ export default {
 }
 .delete-button {
   display: flex;
-  justify-content: flex-right;
+  justify-content: flex-end;
   width: var(--space-normal);
 }
 .value--view {

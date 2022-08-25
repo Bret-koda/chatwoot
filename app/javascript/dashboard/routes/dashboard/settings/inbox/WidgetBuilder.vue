@@ -455,7 +455,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-right;
+    justify-content: flex-end;
     min-height: 64rem;
     margin: var(--space-zero) var(--space-two) var(--space-two) var(--space-two);
     padding: var(--space-one) var(--space-one) var(--space-one) var(--space-one);

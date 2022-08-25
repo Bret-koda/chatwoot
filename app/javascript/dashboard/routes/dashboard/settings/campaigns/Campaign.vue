@@ -102,7 +102,7 @@ export default {
 <style scoped lang="scss">
 .button-wrapper {
   display: flex;
-  justify-content: flex-right;
+  justify-content: flex-end;
   padding-bottom: var(--space-one);
 }
 

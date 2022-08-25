@@ -540,7 +540,7 @@ export default {
 li.left,
 li.right {
   display: flex;
-  align-items: flex-right;
+  align-items: flex-end;
 
   &:hover .button--delete-message {
     visibility: visible;
@@ -557,7 +557,7 @@ li.right .context-menu-wrap {
 
 li.right {
   flex-direction: row-reverse;
-  justify-content: flex-right;
+  justify-content: flex-end;
 
   .wrap.is-pending {
     margin-left: auto;
@@ -566,7 +566,7 @@ li.right {
   .wrap.is-failed {
     display: flex;
     flex-direction: row-reverse;
-    align-items: flex-right;
+    align-items: flex-end;
     margin-left: auto;
   }
 }

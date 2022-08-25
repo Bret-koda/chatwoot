@@ -91,7 +91,7 @@ export default {
 
 .emoji--distribution {
   display: flex;
-  justify-content: flex-right;
+  justify-content: flex-end;
 
   .emoji--distribution-item {
     padding-left: var(--space-normal);

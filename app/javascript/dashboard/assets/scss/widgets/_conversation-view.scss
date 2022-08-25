@@ -230,7 +230,7 @@
     @include flex-align(right, null);
 
     .wrap {
-      align-items: flex-right;
+      align-items: flex-end;
       display: flex;
       margin-right: $space-normal;
       text-align: right;

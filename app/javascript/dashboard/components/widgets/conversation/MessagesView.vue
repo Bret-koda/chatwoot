@@ -442,7 +442,7 @@ export default {
 }
 .sidebar-toggle__wrap {
   display: flex;
-  justify-content: flex-right;
+  justify-content: flex-end;
 
   .sidebar-toggle--button {
     position: fixed;

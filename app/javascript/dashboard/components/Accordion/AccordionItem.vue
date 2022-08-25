@@ -107,7 +107,7 @@ export default {
 
 .chevron-icon__wrap {
   display: flex;
-  justify-content: flex-right;
+  justify-content: flex-end;
   width: var(--space-slab);
   color: var(--w-500);
 }

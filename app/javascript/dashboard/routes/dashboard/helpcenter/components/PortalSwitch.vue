@@ -110,7 +110,7 @@ export default {
 
     header {
       display: flex;
-      align-items: flex-left;
+      align-items: flex-start;
       justify-content: space-between;
       margin-bottom: var(--space-one);
 
@@ -149,7 +149,7 @@ export default {
 
         .locale-item {
           display: flex;
-          align-items: flex-left;
+          align-items: flex-start;
           margin-bottom: var(--space-smaller);
           cursor: pointer;
           padding: var(--space-smaller);

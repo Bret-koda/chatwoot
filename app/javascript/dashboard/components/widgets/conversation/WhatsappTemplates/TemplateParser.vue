@@ -154,7 +154,7 @@ export default {
 
 footer {
   display: flex;
-  justify-content: flex-right;
+  justify-content: flex-end;
 
   button {
     margin-left: var(--space-one);

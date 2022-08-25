@@ -146,7 +146,7 @@ export default {
 }
 
 .conversation {
-  align-items: flex-left;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   padding: var(--space-smaller) var(--space-one);

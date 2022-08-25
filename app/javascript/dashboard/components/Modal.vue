@@ -90,7 +90,7 @@ export default {
 }
 
 .modal-mask.right-aligned {
-  justify-content: flex-right;
+  justify-content: flex-end;
 
   .modal-container {
     border-radius: 0;

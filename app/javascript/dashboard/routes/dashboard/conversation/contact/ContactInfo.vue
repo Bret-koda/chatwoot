@@ -276,7 +276,7 @@ export default {
 <style scoped lang="scss">
 .contact--profile {
   position: relative;
-  align-items: flex-left;
+  align-items: flex-start;
   padding: var(--space-normal);
 
   .user-thumbnail-box {

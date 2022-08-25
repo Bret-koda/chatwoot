@@ -260,7 +260,7 @@ export default {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: flex-right;
+  justify-content: flex-end;
 }
 
 .dropdown-pane {

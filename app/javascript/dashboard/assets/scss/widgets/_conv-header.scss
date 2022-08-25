@@ -44,10 +44,10 @@ $resolve-button-width: 13.2rem;
 
 
     .user--profile__meta {
-      align-items: flex-left;
+      align-items: flex-start;
       display: flex;
       flex-direction: column;
-      justify-content: flex-left;
+      justify-content: flex-start;
       margin-left: $space-slab;
       min-width: 0;
     }
@@ -60,9 +60,9 @@ $resolve-button-width: 13.2rem;
   display: flex;
   flex-direction: row;
   flex-grow: 1;
-  justify-content: flex-right;
+  justify-content: flex-end;
 
   &.has-open-sidebar {
-    justify-content: flex-right;
+    justify-content: flex-end;
   }
 }

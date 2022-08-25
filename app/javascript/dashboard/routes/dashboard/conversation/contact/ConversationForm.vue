@@ -350,7 +350,7 @@ export default {
 
 .modal-footer {
   display: flex;
-  justify-content: flex-right;
+  justify-content: flex-end;
 }
 .row.gutter-small {
   gap: var(--space-small);

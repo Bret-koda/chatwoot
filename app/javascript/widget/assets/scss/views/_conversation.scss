@@ -4,10 +4,10 @@
 
 .conversation-wrap {
   .agent-message {
-    align-items: flex-right;
+    align-items: flex-end;
     display: flex;
     flex-direction: row;
-    justify-content: flex-left;
+    justify-content: flex-start;
     margin: 0 0 $space-micro $space-small;
     max-width: 88%;
 
@@ -87,10 +87,10 @@
   }
 
   .user-message {
-    align-items: flex-right;
+    align-items: flex-end;
     display: flex;
     flex-direction: row;
-    justify-content: flex-right;
+    justify-content: flex-end;
     margin: 0 $space-smaller $space-micro auto;
     max-width: 85%;
     text-align: right;
@@ -106,7 +106,7 @@
     }
 
     .is-failed {
-      align-items: flex-right;
+      align-items: flex-end;
       display: flex;
       flex-direction: row-reverse;
 

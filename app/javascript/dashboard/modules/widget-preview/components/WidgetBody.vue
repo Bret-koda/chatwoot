@@ -90,7 +90,7 @@ export default {
   .availability-content {
     display: flex;
     flex-direction: row;
-    align-items: flex-right;
+    align-items: flex-end;
     padding: var(--space-one) var(--space-two) var(--space-one) var(--space-two);
     min-height: inherit;
 
@@ -110,10 +110,10 @@ export default {
     padding: 0 var(--space-two);
     .conversation-wrap {
       .user-message {
-        align-items: flex-right;
+        align-items: flex-end;
         display: flex;
         flex-direction: row;
-        justify-content: flex-right;
+        justify-content: flex-end;
         margin-top: var(--space-zero);
         margin-bottom: var(--space-smaller);
         margin-left: auto;

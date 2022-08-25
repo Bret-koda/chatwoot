@@ -113,7 +113,7 @@ export default {
 }
 
 .header-wrap {
-  align-items: flex-left;
+  align-items: flex-start;
   display: flex;
   justify-content: space-between;
   margin-bottom: var(--space-slab);
